@@ -1,9 +1,10 @@
 from typing import TypedDict
 
-from IPython.display import Image,display
-from langchain_core.messages import AnyMessage, AIMessage, HumanMessage
-from langgraph.graph import StateGraph, MessagesState
+from IPython.display import Image, display
 from langgraph.constants import START, END
+from langgraph.graph import StateGraph
+
+# 节点串行的例子
 
 # 定义节点间交互的状态类
 class State(TypedDict):
