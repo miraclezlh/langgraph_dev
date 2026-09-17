@@ -1,7 +1,5 @@
-
 from langchain.agents import create_agent
 from langchain.chat_models import init_chat_model
-from langchain_ollama import ChatOllama
 
 # langchain整合了初始化模型，init_chat_model
 ollama_llm_qwen = init_chat_model(
